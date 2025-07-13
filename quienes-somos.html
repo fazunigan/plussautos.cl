@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+  <!--<![endif]-->
+
+  <head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8" />
+    <title>PlussAutos.cl</title>
+
+    <meta name="author" content="Pluss Autos" />
+    <meta
+      name="description"
+      content="Pluss Autos es el mejor concesionario de autos en Temuco. Tenemos el auto que buscas al mejor precio."
+    />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="assets/css/nice-select.css" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="assets/images/logo/logo.png"
+    />
+    <style>
+      .whatsapp-float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .quienes-somos-section {
+        background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+        padding: 100px 0;
+        position: relative;
+      }
+
+      .quienes-somos-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          #d01818 50%,
+          transparent 100%
+        );
+      }
+
+      .quienes-somos-title {
+        font-size: 42px;
+        font-weight: 800;
+        line-height: 1.2;
+        color: #1a1a1a;
+        margin-bottom: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        position: relative;
+      }
+
+      .quienes-somos-title::after {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 3px;
+        background: linear-gradient(90deg, #d01818, #ff6b6b);
+        border-radius: 2px;
+      }
+
+      .quienes-somos-section .lead {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.6;
+        color: #d01818;
+        margin-bottom: 40px;
+        text-align: center;
+        font-style: italic;
+      }
+
+      .quienes-somos-section .content-section {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(208, 24, 24, 0.1);
+      }
+
+      .quienes-somos-section .content-section p {
+        font-size: 17px;
+        line-height: 1.8;
+        color: #333;
+        margin-bottom: 25px;
+        text-align: justify;
+        font-weight: 400;
+      }
+
+      .quienes-somos-section .content-section p:last-child {
+        margin-bottom: 0;
+        font-weight: 600;
+        color: #d01818;
+        text-align: center;
+        font-style: italic;
+      }
+
+      .quienes-somos-section .content-section p:first-child {
+        font-weight: 500;
+        color: #1a1a1a;
+      }
+
+      /* Mejoras responsive */
+      @media (max-width: 768px) {
+        .quienes-somos-title {
+          font-size: 32px;
+        }
+
+        .quienes-somos-section .lead {
+          font-size: 18px;
+        }
+
+        .quienes-somos-section .content-section {
+          padding: 25px;
+        }
+
+        .quienes-somos-section .content-section p {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="body counter-scroll">
+    <!-- preload -->
+    <div class="preload preload-container">
+      <div class="middle"></div>
+    </div>
+    <!-- /preload -->
+
+    <!-- /#page -->
+    <div id="wrapper">
+      <div id="page" class="clearfix">
+        <!-- Main Header -->
+        <header id="header" class="main-header header header-fixed">
+          <!-- Header Lower -->
+          <div class="header-lower">
+            <div class="themesflat-container w1700">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="inner-container flex justify-space align-center">
+                    <!-- Logo Box -->
+                    <div class="logo-box flex">
+                      <div class="logo">
+                        <a href="index.html"
+                          ><img
+                            src="assets/images/logo/logo2%40.png"
+                            alt="Logo"
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="nav-outer flex align-center">
+                      <!-- Main Menu -->
+                      <nav class="main-menu show navbar-expand-md">
+                        <div
+                          class="navbar-collapse collapse clearfix"
+                          id="navbarSupportedContent"
+                        >
+                          <ul class="navigation clearfix">
+                            <li><a href="index.html">Inicio </a></li>
+                            <li>
+                              <a href="car-list.html">Consigna tu auto </a>
+                            </li>
+                            <li>
+                              <a href="car-list.html"
+                                >¿Necesitas financiamiento?
+                              </a>
+                            </li>
+                            <li>
+                              <a href="car-list.html">¿Quiénes somos? </a>
+                            </li>
+                            <li><a href="contact-us.html">Contáctanos </a></li>
+                          </ul>
+                        </div>
+                      </nav>
+                      <!-- Main Menu End-->
+                    </div>
+                    <div class="header-account flex align-center">
+                      <div class="flat-bt-top sc-btn-top ml--20">
+                        <a class="btn-icon-list" href="car-list.html">
+                          <span>Ver autos en venta</span>
+                          <i class="icon-add-button-1"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="mobile-nav-toggler mobile-button">
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Header Lower -->
+          <!-- Mobile Menu  -->
+          <div class="close-btn">
+            <span class="icon flaticon-cancel-1"></span>
+          </div>
+          <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <nav class="main-menu show navbar-expand-md">
+              <div
+                class="navbar-collapse collapse clearfix"
+                id="navbarSupportedContent"
+              >
+                <ul class="navigation clearfix">
+                  <li><a href="index.html">Inicio </a></li>
+                  <li>
+                    <a href="car-list.html">Consigna tu auto </a>
+                  </li>
+                  <li>
+                    <a href="car-list.html">¿Necesitas financiamiento? </a>
+                  </li>
+                  <li>
+                    <a href="car-list.html">¿Quiénes somos? </a>
+                  </li>
+                  <li><a href="contact-us.html">Contáctanos </a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <!-- End Mobile Menu -->
+        </header>
+        <!-- End Main Header -->
+
+        <!-- Slide-form -->
+        <div class="tf-slide-form">
+          <div class="themesflat-container">
+            <div class="slide-form t-al-center">
+              <span
+                class="wow fadeInUp"
+                data-wow-delay="100ms"
+                data-wow-duration="2000ms"
+                >En <span class="text-red">Pluss Autos </span> nuestro centro es
+                el cliente.
+              </span>
+              <h1
+                class="wow fadeInUp"
+                data-wow-delay="300ms"
+                data-wow-duration="2000ms"
+              >
+                Encuentra <span class="text-red">ese modelo</span> que buscas.
+              </h1>
+              <p
+                class="wow fadeInUp"
+                data-wow-delay="600ms"
+                data-wow-duration="2000ms"
+              >
+                Todos nuestros autos son probados y evaluados. Sin sorpresas ni
+                letras chicas.
+              </p>
+            </div>
+            <!-- Tab -->
+            <div class="search-form-widget">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="home-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#home"
+                    type="button"
+                    role="tab"
+                    aria-controls="home"
+                    aria-selected="true"
+                  >
+                    Busca aquí tu auto
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="home"
+                  role="tabpanel"
+                  aria-labelledby="home-tab"
+                >
+                  <form method="post" id="search-forms">
+                    <div class="inner-group grid">
+                      <div class="form-group">
+                        <div class="group-select">
+                          <div class="nice-select" tabindex="0">
+                            <span class="current">Marca</span>
+                            <ul class="list">
+                              <li data-value class="option selected">
+                                Todas las marcas
+                              </li>
+                              <li data-value class="option">Toyota</li>
+                              <li data-value="Acura" class="option">Nissan</li>
+                              <li data-value="Audi" class="option">
+                                Chevrolet
+                              </li>
+                              <li data-value="Bentley" class="option">Ford</li>
+                              <li data-value="BMV" class="option">Suzuki</li>
+                              <li data-value="Chevrolet" class="option">
+                                Chery
+                              </li>
+                              <li data-value="Ferrari" class="option">Baic</li>
+                              <li data-value="Ford" class="option">RAM</li>
+                              <li data-value="Lexus" class="option">Lexus</li>
+                              <li data-value="Maybach" class="option">
+                                SsangYong
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="group-select">
+                          <div class="nice-select" tabindex="0">
+                            <span class="current">Modelo</span>
+                            <ul class="list">
+                              <li data-value class="option selected">
+                                Todos los modelos
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="widget widget-price">
+                          <div class="caption flex-two">
+                            <p class="price-range">Rango de precios</p>
+                          </div>
+                          <div id="slider-range"></div>
+                          <div class="slider-labels">
+                            <div>
+                              <input type="hidden" name="min-value" value="" />
+                              <input type="hidden" name="max-value" value="" />
+                            </div>
+                            <div class="number-range">
+                              <span id="slider-range-value1"></span>
+                              <span id="slider-range-value2"></span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.widget_price -->
+                      </div>
+                      <div class="form-group">
+                        <button type="submit" class="button-search-listing">
+                          <i class="icon-search-1"></i>
+                          23 Autos
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="profile"
+                  role="tabpanel"
+                  aria-labelledby="profile-tab"
+                >
+                  <form method="post" id="search-forms2">
+                    <div class="inner-group grid">
+                      <div class="form-group">
+                        <div class="group-select">
+                          <div class="nice-select" tabindex="0">
+                            <span class="current">Marca</span>
+                            <ul class="list">
+                              <li data-value class="option selected">
+                                Todas las Marcas
+                              </li>
+                              <li data-value="Acura" class="option">Toyota</li>
+                              <li data-value="Audi" class="option">Nissan</li>
+                              <li data-value="Bentley" class="option">
+                                Suzuki
+                              </li>
+                              <li data-value="BMV" class="option">Chevrolet</li>
+                              <li data-value="Chevrolet" class="option">
+                                Chery
+                              </li>
+                              <li data-value="Ferrari" class="option">Baic</li>
+                              <li data-value="Ford" class="option">RAM</li>
+                              <li data-value="Lexus" class="option">Lexus</li>
+                              <li data-value="Maybach" class="option">Chery</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="group-select">
+                          <div class="nice-select" tabindex="0">
+                            <span class="current">Modelo</span>
+                            <ul class="list">
+                              <li data-value class="option selected">
+                                Todos los modelos
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="widget widget-price">
+                          <div class="caption flex-two">
+                            <p class="price-range">Rango de precios</p>
+                          </div>
+                          <div id="slider-range2"></div>
+                          <div class="slider-labels">
+                            <div>
+                              <input type="hidden" name="min-value2" value="" />
+                              <input type="hidden" name="max-value2" value="" />
+                            </div>
+                            <div class="number-range">
+                              <span id="slider-range-value01"></span>
+                              <span id="slider-range-value02"></span>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /.widget_price -->
+                      </div>
+                      <div class="form-group">
+                        <button type="submit" class="button-search-listing">
+                          <i class="icon-search-1"></i>
+                          23 Autos
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- Tab -->
+          </div>
+        </div>
+        <!-- Slide-form -->
+
+        <!-- Quienes Somos Section -->
+        <section class="quienes-somos-section pd-t81 pd-b81">
+          <div class="themesflat-container">
+            <div class="row">
+              <div class="col-lg-8 col-md-10 col-12 mx-auto text-center">
+                <h2 class="quienes-somos-title mb-4">
+                  ¿Quiénes <span class="red-title">Somos</span>?
+                </h2>
+                <div class="subtitle-section mb-5">
+                  <p class="lead">
+                    Un referente de confianza en la compra y venta de vehículos
+                  </p>
+                </div>
+                <div class="content-section mb-10">
+                  <p class="text-justify">
+                    En PlussAutos, nos enorgullece ser un referente de confianza
+                    en la compra y venta de vehículos. Con 6 años de sólida
+                    experiencia en el sector automotriz, hemos construido
+                    nuestra reputación sobre los pilares de la integridad, la
+                    transparencia y el profesionalismo.
+                  </p>
+                  <p class="text-justify">
+                    Comprendemos que la adquisición o venta de un vehículo es
+                    una decisión significativa. Por ello, nuestro compromiso es
+                    ofrecerle un proceso claro, seguro y eficiente.
+                    Seleccionamos meticulosamente cada unidad de nuestro
+                    inventario, garantizando su calidad, procedencia y estado
+                    óptimo mediante rigurosas inspecciones.
+                  </p>
+                  <p class="text-justify">
+                    Nuestro equipo está dedicado a brindarle una asesoría
+                    experta y personalizada, guiándolo en cada etapa del
+                    proceso, desde la selección del vehículo ideal que se ajuste
+                    a sus necesidades y presupuesto, hasta la gestión documental
+                    completa. En PlussAutos, su satisfacción y confianza son
+                    nuestra máxima prioridad.
+                  </p>
+                  <p class="text-justify">
+                    Le invitamos a visitarnos y experimentar la diferencia de
+                    trabajar con profesionales comprometidos con su
+                    tranquilidad.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /Quienes Somos Section -->
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer" class="clearfix bg-footer2 pd-t81 re-hi">
+        <div class="themesflat-container">
+          <div class="row footer-top">
+            <div class="col-lg-6 col-md-12 col-12 pd-r80">
+              <h2 class="title-footer-top">
+                ¿Quieres ponerte en <span class="red-title">contacto</span> con
+                nosotros?
+              </h2>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12 t-al-right pt-20">
+              <a href="contact-us.html" class="btn-sell">¡Contáctanos!</a>
+            </div>
+          </div>
+          <div class="row footer-main">
+            <div class="col-lg-6 col-md-12 col-12">
+              <div class="widget widget-info">
+                <img
+                  src="assets/images/logo/logo-footer.png"
+                  alt="Logo PlussAutos"
+                  style="width: 60%; margin-bottom: 20px"
+                />
+                <p>
+                  En PlussAutos nos enorgullece ser un referente de confianza en
+                  la compra y venta de vehículos. Con 6 años de sólida
+                  experiencia, hemos construido nuestra reputación sobre los
+                  pilares de la integridad, la transparencia y el
+                  profesionalismo.
+                </p>
+                <p>
+                  Seleccionamos meticulosamente cada unidad de nuestro
+                  inventario, garantizando su calidad, procedencia y estado
+                  óptimo mediante rigurosas inspecciones.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+              <div class="widget widget-menu">
+                <h3>Enlaces Rápidos</h3>
+                <ul class="box-menu">
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="car-list.html">Consigna tu auto</a></li>
+                  <li>
+                    <a href="car-list.html">¿Necesitas financiamiento?</a>
+                  </li>
+                  <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+                  <li><a href="contact-us.html">Contáctanos</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row footer-bottom">
+            <div class="col-12 text-center">
+              <p class="coppy-right">
+                © 2024 PlussAutos. Todos los derechos reservados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- /#footer -->
+    </div>
+    <!-- /#page -->
+
+    <a
+      href="https://wa.me/56951481009?text=¡Hola Pluss Autos!,%20quisiera%20consultar%20por%20un%20auto%20que%20vi%20en%20la%20página%20web"
+      class="whatsapp-float"
+      target="_blank"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+        fill="currentColor"
+        class="bi bi-whatsapp"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943s-.182-.133-.38-.232z"
+        />
+      </svg>
+    </a>
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/jquery-countTo.js"></script>
+    <script src="assets/js/nouislider.min.js"></script>
+    <script src="assets/js/price-ranger.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
